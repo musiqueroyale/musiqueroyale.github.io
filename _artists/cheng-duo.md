@@ -1,0 +1,11 @@
+---
+layout: artist
+name: Cheng² Duo
+instrument: 
+twitter: cheng2duo
+instagram:
+facebook: Cheng2Duo
+website: "http://www.cheng2duo.com/"
+---
+
+Committed to bringing classical music to 21st-century audiences through innovative programming and engaging presentations, Canadian classical pianist and cellist Silvie and Bryan Cheng have been making music together for the past 13 years. In 2011, when they were called upon to replace an injured musician for a scheduled recital in Carnegie Hall's Weill Recital Hall, they officially became known as Cheng² Duo, pronounced Cheng Squared Duo. The duo's New York debut was met with an enthusiastic full-house audience, as well as critical acclaim. Following that concert, the Cheng² Duo was invited back to Weill Hall for a return recital in 2013, which included the world premiere of a pair of new Canadian works written by the Juno award-winning composer Alexina Louie to another full house. 

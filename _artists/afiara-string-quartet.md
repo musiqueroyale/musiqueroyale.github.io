@@ -1,0 +1,14 @@
+---
+layout: artist
+name: Afiara String Quartet
+twitter: afiaraquartet
+instagram: afiaraquartet
+facebook: afiaraquartet
+website: "http://www.afiara.com/"
+---
+
+Profiled by CBC Q, The National, Discovery Channel, and the Toronto Star (“one of the most attention-grabbing concerts of the year”), the Afiara Quartet, an ensemble for the 21st century, is a string quartet defined by its pursuit of beauty, meaning, and growth as musicians and ambassadors for its genre.
+
+Comprised of Valerie Li, first violin; Timothy Kantor, violin; Eric Wong, viola and Adrian Fung, cello, the Afiara Quartet is a dynamic and award-winning ensemble, described as “a revelation” (La Presse) with performances balancing “intensity and commitment” and “frequent moments of tenderness” (Montreal Gazette). After residencies at The Juilliard School and San Francisco State University, the Afiara are currently Fellowship Quartet at the Royal Conservatory of Music. The ensemble is winner of the Young Canadian Musicians Award, Concert Artist Guild, Munich ARD, and Banff International String Quartet Competitions, including the latter's Szekely Prize for the best interpretation of Beethoven. The Afiara has performed throughout the Americas, Europe, and Asia, at such venues as Carnegie Hall's Zankel and Weill Halls, the Kennedy Center, Alice Tully Hall at Lincoln Center, Library of Congress in DC, Sao Paulo's Museum of Modern Art, Pro Musica of San Miguel de Allende, London's Wigmore Hall, Austria's Esterhazy Palace, Munich's Prinz Regenten Theatre, Amsterdam's Muziekgebouw, and the Royal Library in Copenhagen. Their journey is documented in over 30 commissions of new music, new educational outreach initiatives for school children funded by the Ontario Arts Council, and projects with jazz virtuoso Uri Caine, Latin Grammy Award-winning producer Javier Limon, and innovative scratch DJ, Kid Koala.
+
+As Executive Producers, the Afiara Quartet's latest project, “Spin Cycle”, is a ground-breaking process that begins with four Canadian commissions by composers Kevin Lau, Laura Silberberg, Rob Teehan, and Dinuk Wijeratne, which is then remixed by renowned DJ Skratch Bastid. The composers then compose to the remixes by writing quartet parts in response, creating an authentic and fully collaborative dialogue, with all three stages stand-alone works in their own right. Classicaliszt writes: “Like a tornado cutting a swath of chaos across cornfields and farmlands, Spin Cycle (Centrediscs) is knocking down those musical silos that once contained and kept classical music and hip hop at more than arms length from each other, and allows conversations across a musical void that I never expected to hear filled in.”

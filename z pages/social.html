@@ -1,0 +1,45 @@
+---
+permalink: /social/
+title: Social
+layout: page
+---
+
+
+<div class="entry">
+    <div class="row">
+        <div class="span12">
+            <p class="large tc">Follow us <a href="https://twitter.com/musiqueroyale" target="_blank">@musiqueroyale</a></p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="entry">
+    <div class="row">
+        <div class="span12">
+            <div id="exampleProfile"></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="entry">
+        <div class="row small">
+
+            {% assign linklist = site.data.links | sort: 'name' %} {% for link in linklist %}
+            <div class="span4">
+                <div class="social-links">
+                    <a href="{{ link.url }}" target="_blank" style="text-decoration: none;">
+                    {{ link.name }}</a>
+                </div>
+            </div>
+            {% endfor %}
+    </div>
+</div>
+
+
+<link href="/assets/css/twitter.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/assets/js/twitterFetcher.js"></script>
+<script type="text/javascript" src="/assets/js/exampleUsage.js"></script>

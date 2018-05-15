@@ -1,0 +1,47 @@
+---
+permalink: /venues/
+title: Venues
+layout: page
+---
+
+<div class="entry">
+    <div class="row">
+        <div class="span12">
+    <p class="large" style="text-align:center!important;">Explore Nova Scotia through historic venues and great music!</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="entry">
+    <p>You will find below an up-to-date list of our current partnerships, their histories, and contact information. Generally speaking, tickets are always available through reservation from the MR Box Office and at the door. Feel free to contact a venue directly with any questions about the upcoming concert being held there. In addition, some venues have their own local ticket selling arrangements, such as at shops or through community organizations. We are pleased to offer affordable tickets to all our concerts with an average price of $20 for general admission and $10 for students. Cecilia's Retreat events are available by advance reservation only, so make sure to write <a href="mailto:barbara.butler@ns.sympatico.ca">Barbara Butler</a> to save a spot for her house concerts!</p>
+</div>
+
+{% assign sortedvenues = site.venues | sort: "location" %}
+<div style="max-width: 640px;">
+{% for venue in sortedvenues %}
+
+<div class="entry">
+    <div class="row">
+        <div class="span12">
+            <img class="centered" src="/assets/venues/{{ venue.location | downcase | slugify }}-{{ venue.title | slugify}}.jpg">
+            <h4>{{ venue.location }}</h4>
+            <h2>{{ venue.title }}</h2> {{ venue.content }}
+            <div class="small">
+                <!-- Venue Links and Info -->
+                <!-- Get full location address information -->
+                {% capture eventlocation %}{{ venue.title }}{% endcapture %}
+                <p>
+                    {% if site.data.venues-new[eventlocation].address
+                    <> null %}<b>Location:</b> {{ site.data.venues-new[eventlocation].address }} {% endif %} {% if site.data.venues-new[eventlocation].gmaps %} <a href="{{ site.data.venues-new[eventlocation].gmaps }}" target="_blank">Directions</a>{% endif %}
+                </p>
+                <!-- end location compare -->
+                {% if site.data.venues-new[eventlocation].chair %}<p><b>Contact:</b> {% if site.data.venues-new[eventlocation].email %}
+                    <a href="mailto:{{ site.data.venues-new[eventlocation].email }}">{{ site.data.venues-new[eventlocation].chair }}</a>{% else %}{{ site.data.venues-new[eventlocation].chair }}{% endif %}{% if site.data.venues-new[eventlocation].phone %}, {{ site.data.venues-new[eventlocation].phone }}{% endif %}{% endif %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>

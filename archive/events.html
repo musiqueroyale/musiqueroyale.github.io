@@ -1,0 +1,143 @@
+---
+permalink: /events/
+title: Events
+layout: page
+---
+
+<div class="entry">
+    <div class="row">
+        <div class="span12">
+            <p class="large tc" style="margin-bottom: .5em;">Upcoming Events
+                <p class="tc">Infomation on past events available <a href="/pastevents/">here</a></p>
+        </div>
+    </div>
+</div>
+<!-- Event Postings -->
+{% for event in site.events %}
+{% unless event.published == false %}
+  {% capture eventtime %}
+      {{ event.date | date: "%F" }} {{ event.time | date: "%H:%M" }}
+  {% endcapture %}
+
+  {% capture sitetime %}
+      {{ site.time | date: "%s" }}
+  {% endcapture %}
+
+  {% assign eventimenumber = eventtime | date: "%s" %}
+
+  {% capture computed %}
+  {{ eventimenumber | minus: sitetime }}
+  {% endcapture %}
+
+  {% unless computed contains "-" %}
+
+
+    <div class="entry" style="max-width: 640px;">
+      <div class="row">
+        <div class="span12">
+          {% if event.image %}
+            <img class="centered" src="{{ event.image }}">
+          {% else %}
+            {% capture listing %}{{ event.artist | first | remove: "Group_" | slugify }}.jpg{% endcapture %}
+            {% for file in site.static_files %}
+              {% if listing == file.name %}
+                <img class="centered" src="/assets/artists/{{ file.name }}">
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+
+          <h4>
+            {% if event.range %}
+              {{ event.range }}
+            {% else %}
+              {{ event.date | date: '%A %B %-d' -}}
+              {% if event.time %}, {{ event.time | date: '%-I:%M %p' }} {% endif %}
+            {% endif %}
+          </h4>
+          <h2>{{ event.title }}</h2>
+
+          <!-- Event Content -->
+          {{ event.content }}
+
+          <!-- Cookie Concert line -->
+          {% if event.title contains "Cookie" or event.title contains "cookie" %}
+              <p>Enjoy a freshly baked cookie and added activities that often accompany our cookie events!</p>
+          {% endif %}
+
+          <!-- Check for artist Bio -->
+          {% if event.website %}
+              <p>For more please visit:
+              {% for site in event.website %}
+                  <a href="{{ site }}" target="_blank">{{ site }}</a>{% unless forloop.first == true %}{% if forloop.last == false %}<br>{% endif %}{% endunless %}
+              {% endfor %}
+              </p>
+          {% endif %}
+
+          <!-- Event Artists -->
+          <div class="small" style="padding-top:1em;">
+            {% if event.artist %}
+              <p><b>Featuring:</b>
+                {%- for person in event.artist -%}
+                {%- assign personclean = person | remove: "Group_" -%}
+                    {% if site.data.artists[personclean].website %}
+                        <a href="{{ site.data.artists[personclean].website }}" target="_blank">{{ personclean -}}</a>
+                        {% else %}
+                        {{ personclean -}}
+                    {%- endif -%}
+                    {%- if site.data.artists[person].instrument %}
+                        ({%- for instrument in site.data.artists[person].instrument -%}{{- instrument -}}
+                        {%- unless forloop.last -%}/ {%- endunless -%}
+                        {%- endfor -%})
+                    {%- endif -%}{%- if forloop.last == false -%}{%- if forloop.first == true and person contains 'Group' -%}:{%- else -%},{%- endif -%}{%- endif -%}{%- endfor -%}
+                </p>
+            {% endif %}
+
+            <!-- Get full location address information -->
+            {% if event.location %}
+              {% capture eventlocation %}{{ event.location }}{% endcapture %}
+              <p>
+                  <b>Location:</b>
+                  {% if site.data.venues-new[eventlocation].gmaps %}
+                    <a href="{{ site.data.venues-new[eventlocation].gmaps }}" target="_blank">{{ event.location }}</a>.
+                  {% else %}
+                    {{ event.location }}.
+                  {% endif %}
+                  {% if site.data.venues-new[eventlocation].address <> null %}
+                      {{ site.data.venues-new[eventlocation].address }}.
+                  {% endif %}
+              </p>
+            {% endif %}
+
+            <!-- Ticketing Information -->
+            <p>
+              <b>Tickets:</b>
+              {% if event.ticket <> null %}
+                {{ event.ticket}}.
+              {% endif %}
+              {% if event.webpay %}
+                Purchase <a href="{{ event.webpay }}" target="_blank">online</a>.
+              {% endif %}
+
+              {% if event.location contains "Cecilia"%}
+                Seating limited. Reserve by <a href="mailto:barbara.butler@ns.sympatico.ca">email</a>, or at 902 624-0506.
+
+              {% elsif event.location contains "St. John's Anglican" %}
+                Reserve at Shop on the Corner in Lunenburg, by <a href="mailto:musiqueroyale1985@gmail.com">email</a> or at 902 634-9994.
+
+              {% elsif event.title contains "Cookie" or event.title contains "cookie" %}
+                $5 at the door (4 years and under free)
+
+              {% else %}
+                 {% unless event.ticket-default == false %}
+                 Reservations are available at 902 634-9994 or by <a href="mailto:musiqueroyale1985@gmail.com">email</a>.
+                 {% endunless %}
+
+              {% endif %}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endunless %}
+  {% endunless %}
+{% endfor %}

@@ -1,0 +1,5 @@
+Site Instructions
+
+
+Events:
+- If group is included in 'Artists' tag, append Group_ to it to produce desired ':'. Eg 'Group_Ladom Ensemble' will produce 'Ladom Ensemble:'

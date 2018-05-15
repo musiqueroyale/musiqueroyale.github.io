@@ -1,0 +1,8 @@
+---
+title: United Church
+location: Merigomish
+layout: venue
+published: false
+---
+
+Merigomish is located on the south shore of Merigomish Harbour, Exit 27, off Highway 104. Its name is probably a variation of the Micmac name Malegomich, “the merrymaking place”. The area seems to have been one of the larger Indian camping grounds and Merigomish Harbour is believed to be a site significant for its archeological remnants. Settlement by Loyalist refugees from the American Revolutionary War began here in the area about 1784. Fishing and farming are the basic industries in the area, and the scenery along the Sunrise Trail is among the most beautiful in the province. In comparison to many of the churches in our region, Merigomish United Church is "relatively" new. It was built and completed in 1927 by many past relatives and friends who still attend today. However, there are some who probably still remember the dedication and efforts that went into the building of the structure. Merigomish United Church was dedicated with three separate services on Sunday, October 9, 1927. The minister was Rev. H.E. Campbell. The first service was at 11am and included guest speakers Rev. C.C. MacIntosh, Rev. Dr. A.H. Denson, Rev. J.D. MacLeod, and Rev. R.A. Patterson. There was another service at 3pm, and then another for the young people at 7pm. Our church maintains its devotion to the younger generations with a fabulous Sunday School.

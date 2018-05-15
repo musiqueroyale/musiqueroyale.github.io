@@ -1,0 +1,12 @@
+- url: /events/
+  title: Events
+- url: /about/
+  title: About
+- url: /artists/
+  title: Artists
+- url: /venues/
+  title: Venues
+- url: /social/
+  title: Social
+- url: /contact/
+  title: Contact

@@ -1,0 +1,79 @@
+---
+permalink: /events/
+title: Events
+layout: page
+---
+
+<div class="row">
+    <div class="span12">
+        <h1 class="tl">Upcoming Events</h1>
+    </div>
+</div>
+
+<div class="event-grid">
+
+  <!-- Event Postings -->
+  {% for event in site.events %}
+    {% unless event.published == false %}
+      {% unless event.path contains '2015' or event.path contains '2016' or event.path contains '2017' %}
+
+        {% capture eventtime %}
+        {{ event.date | date: "%F" }} {{ event.time | date: "%H:%M" }}
+        {% endcapture %}
+
+        {% capture sitetime %}
+        {{ site.time | date: "%s" }}
+        {% endcapture %}
+
+        {% assign eventimenumber = eventtime | date: "%s" %}
+        {% capture computed %}
+        {{ eventimenumber | minus: sitetime }}
+        {% endcapture %}
+
+        {% unless computed contains "-" %}
+
+        <div class="row">
+          <a href="{{ event.url }}">
+            <div class="span4 {{ sluggedcategory }}">
+
+              {%- capture eventimagecap -%}
+              {% if event.image %}{{- event.image -}}
+              {% else %}
+              {% capture listing %}{{ event.artist | first | remove: "Group_" | slugify }}.jpg{% endcapture %}
+              {% for file in site.static_files %}
+              {% if listing == file.name %}/assets/artists/{{ file.name }}{% endif %}
+              {% endfor %}
+              {% endif %}
+              {%- endcapture -%}
+
+              <div class="background-image-span project-grid-item" style="background-image: url({{ eventimagecap }})"></div>
+            </div>
+            <div class="span8">
+              <h4>
+                {% if event.range %}
+                  {{ event.range }}
+                {% else %}
+                  {{ event.date | date: '%a %B %-d' -}}
+                  {% if event.time %} – {{ event.time | date: '%-I:%M %p' }}
+                  {% endif %}
+                {% endif %}
+              </h4>
+
+              {% if event.name %}
+                <h3>{{ event.name }}</h3>
+              {% else %}
+                <h3>{{ event.title }}</h3>
+              {% endif %}
+
+              <p>{{ event.content | strip_html | strip_newlines | truncatewords: 30 }}</p>
+              <p>Event information →</p>
+            </div>
+          </a>
+        </div>
+      {% endunless %}
+      {% endunless %}
+    {% endunless %}
+  {% endfor %}
+</div>
+
+<h5><a href="/pastevents/">Infomation on past events</a></h5>

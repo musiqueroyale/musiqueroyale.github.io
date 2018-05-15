@@ -1,0 +1,106 @@
+---
+permalink: /events1/
+title: Events
+layout: page
+---
+
+    <div class="row">
+        <div class="span12">
+            <p class="large">Upcoming Events</p>
+        </div>
+    </div>
+
+  <div class="row">
+
+<!-- Event Postings -->
+{% for event in site.events %}
+{% unless event.published == false %}
+  {% capture eventtime %}
+      {{ event.date | date: "%F" }} {{ event.time | date: "%H:%M" }}
+  {% endcapture %}
+
+  {% capture sitetime %}
+      {{ site.time | date: "%s" }}
+  {% endcapture %}
+
+  {% assign eventimenumber = eventtime | date: "%s" %}
+
+  {% capture computed %}
+  {{ eventimenumber | minus: sitetime }}
+  {% endcapture %}
+
+  {% unless computed contains "-" %}
+
+
+  <div class="span4 {{ sluggedcategory }}" style="margin-bottom: 2em;">
+      <a href="{{ event.url }}">
+
+        {% capture eventimagecap %}
+        {% if event.image %}{{- event.image -}}
+        {% else %}
+          {% capture listing %}{{ event.artist | first | remove: "Group_" | slugify }}.jpg{% endcapture %}
+          {% for file in site.static_files %}
+            {% if listing == file.name %}/assets/artists/{{ file.name }}{% endif %}
+          {% endfor %}
+        {% endif %}
+        {% endcapture %}
+
+
+          <div class="background-image-span project-grid-item" style="background-image: url({{ eventimagecap }})"></div>
+          <h4>
+
+
+          {% if event.range %}
+            {{ event.range }}
+          {% else %}
+            {{ event.date | date: '%B %-d, %Y' -}}
+          {% endif %}
+        </h4>
+
+      {% if event.name %}
+      <h3>{{ event.name }}</h3>
+      {% else %}
+      <h3>{{ event.title }}</h3>
+      {% endif %}
+
+
+
+          <div class="small">
+            <p>  {% if event.location %}
+              {{ event.location | remove: " Lunenburg" }}<br>
+              {% endif %}
+
+              {% if event.tags %}
+              {% for tag in event.tags %}
+              {{ tag }}
+              {% endfor %}
+              {% else %}
+              <div>&nbsp;</div>
+              {% endif %}
+
+
+
+            </p>
+
+
+
+
+
+
+
+
+          </div>
+        </a>
+
+        </div>
+
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
+
+</div>
+
+
+
+
+<p class="tc">Infomation on past events available <a href="/pastevents/">here</a></p>

@@ -1,0 +1,14 @@
+---
+permalink: /artist-testing/
+title: Artist Testing
+layout: page
+---
+
+
+<!-- Access just the header of a YAML data list --> 
+
+{% for artist in site.data.artists %}
+
+{{ artist[0] | split: " { " }},
+
+{% endfor %}

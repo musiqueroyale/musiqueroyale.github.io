@@ -1,0 +1,10 @@
+---
+layout: artist
+name: David Langstroth
+twitter:
+instagram:
+facebook:
+website:
+---
+
+David Langstroth was born in Halifax and was introduced to the double bass through the thriving Halifax schools music program in the mid 1970s. After being inspired by the teaching of Alexander Tilley, he went to Montreal to study at McGill University where he divided his time between classical and jazz performance. In 1986 he went to London to study with virtuoso Thomas Martin and won an audition for the BBC National Orchestra of Wales in 1987. For the next 17 years David played for the orchestra on radio, television, film, CD recordings and toured extensively in the UK, Europe and the far east. He was also the bassist with the Contemporary Music Ensemble of Wales and performed on radio and television with the string quintet he founded, Opus5. David's other musical activities have included solo recitals, playing bass guitar and conducting, notably the Bridgend Choral Society and the Tromso Symphony Orchestra in Norway. While working for the BBC David became involved in the education and outreach activities in the orchestra, gaining a qualification from the University of Manchester in this work. Other degrees over the years include an MA in Education, an MBA and a Diploma in Computer Science. David completed these studies by using the spare time hanging around recording studios or sitting at the back of a tour bus. In 1987 David also met the Alexander Technique, having lessons with Tasha Miller in Cardiff. After several years he learned to teach the technique and he joined Tasha in running the highly successful Cardiff Consultancy for the Alexander Technique. David plays as an extra with Symphony Nova Scotia as a founding member of world music fusion group Talambra and a variety of classical and jazz collaborations. He and Tasha have also set up Alexander Technique Atlantic which attracts a growing interest from across the Maritime Provinces.

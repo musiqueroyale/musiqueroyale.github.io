@@ -1,0 +1,22 @@
+---
+layout: artist
+name: Nic Gareiss
+twitter:
+instagram:
+facebook:
+website:
+---
+
+Michigan-born dancer, musician, and dance researcher Nic Gareiss has studied a broad variety of percussive movement forms from around the world. At the age of eight he began taking tap lessons with Sam and Lisa Williams at Vision Studio of Performing Arts in Mount Pleasant, Michigan. Soon after, he was exposed to fiddle music and traditional dance at the Wheatland Music Organization's annual Traditional Arts Weekend. It was there that he had his first instruction in Appalachian clogging with Michigan dance mentor, Sheila Graziano. As a teenager, Nic also studied Irish step dance with John Heinzman, T.C.R.G., Appalachian flat-footing with Ira Bernstein, Québécois step dance with Benoit Bourque, and improvisation and composition with Sandy Silva.
+
+In 2001, Nic began an educational relationship with the internationally-renowned company, Footworks Percussive Dance Ensemble. After meeting Footworks' director, NEA Choreography Fellow Eileen Carson at the Augusta Heritage Center dance camp, Nic was invited to spend nine weeks apprenticing with the company in Annapolis, Maryland. While working with Footworks, Gareiss danced in their evening-length theater show, Incredible Feets as well as two new collaborative works: SoleMates, with StepAfrika and The Crossing, with Grammy-winning recording artist Tim O'Brien.
+
+In 2007, Nic spent a year studying traditional Irish music and dance performance at the Irish World Academy at the University of Limerick, Ireland. There he studied Cape Breton step dance with Mats Melin as well as Irish dance and choreography with Orfhlaith Ni Bhriain, T.C.R.G, A.D.C.R.G. He also studied privately with contemporary dance artist and Irish dancer Colin Dunne and sean-nós dancer Seosamh Ó Néachtain.
+
+Nic has performed many of the luminaries of traditional music from Ireland, Scotland, and North America, including The Chieftains, Dervish, Gráda, Beoga, Téada, FIDIL, Le Vent du Nord, Genticorum, Dr. Anthony Barrand, Buille, Liz Carroll, Frankie Gavin, Martin Hayes, Bruce Molsky, Darol Anger and Alasdair Fraser. His dancing has been seen on CMT in Uncle Earl's music video, Streak O' Lean, Steak O' Fat, and also on Ireland's RTÉ 2 in the film Unsung, commissioned by the Irish Arts Council, which premiered during the 2008 Dublin Dance Festival. He has performed for the Irish head of state, An Taoiseach Brian Cowen and American Energy Secretary Steven Chu. In 2011, Nic received two commissions from the Cork Opera House to create new solo percussive dance works for Reich's pieces Six Marimbas and Clapping Music in honor of the composer's 75th birthday. The commissions were hailed by the Irish Times as “a leftfield tour-de-force with irresistible wow factor.”
+
+Nic continues to study, seeking out new forms of floor-music and shoe rhythms, recently studying flamenco with Felipe de Algeciras in Dublin and American percussive dance with Rhythm in Shoes founder and artistic director Sharon Leahy of Dayton, Ohio.
+
+Nic has taught workshops in percussive dance technique, American clogging, musicality and improvisation internationally. He has had the pleasure of teaching at Alasdair Fraser's Valley of the Moon Scottish Fiddle Camp in northern California, as well as for Scottish Culture & Traditions Organization, The University of Limerick, Michigan State University, Alma College, the Royal Conservatoire of Scotland, and the North Atlantic Fiddle Convention in Derry, Northern Ireland. Through workshops for both movers and musicians, Nic seeks to remind students of the crucial, intrinsic, and historic place that percussive dance has held in the formation and development of many world music traditions as well as encourage dancers with the innately sonic capabilities of movement.
+
+Nic holds degrees in anthropology and music from Central Michigan University. In 2011, he earned a distinction from the Norwegian University for Science and Technology's IPEDAM Erasmus Intensive for Ethnochoreologists. Nic completed post-graduate work in 2012, earning a MA in ethnochoreology from the University of Limerick. He continues to tour internationally, working with dance communities and presenting solo percussive dance choreography and dance research.

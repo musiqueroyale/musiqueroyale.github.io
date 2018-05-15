@@ -1,0 +1,48 @@
+<header>
+
+<div class="title-small">
+  <a href="/">MUSIQUE ROYALE </a>
+</div>
+
+        <nav>
+            <ul class="nav-full">
+                {% for menuitem in site.data.menuitems %}
+                <li {% if page.title contains menuitem.title %} class="active" {% endif %}>
+                    <a href="{{ menuitem.url }}">{{ menuitem.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+
+          <div id="nav-container">
+            <div class="toggle-icon">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+
+          <div id="navigation">
+            <div class="content">
+              <div class="row">
+                <div class="span12">
+                <ul class="nav-expanded">
+                    {% for menuitem in site.data.menuitems %}
+                    <li {% if page.title == menuitem.title %} class="active" {% endif %}>
+                        <a href="{{ menuitem.url }}">{{ menuitem.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        </nav>
+
+
+
+
+
+
+<div style="clear:both;"></div>
+
+</header>

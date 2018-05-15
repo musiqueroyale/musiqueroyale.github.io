@@ -1,0 +1,18 @@
+---
+layout: artist
+name: Adrianne Greenbaum
+twitter:
+instagram:
+facebook:
+website: "http://klezmerflute.com/"
+---
+
+Adrianne Greenbaum is a nationally acclaimed klezmer and classical flutist. As a klezmer she is the founder and leader of "FleytMuzik," an ensemble with flute, violin, cimbalom and bass, and of "The Klezical Tradition" klezmer band where she performs on both flute and keyboard and leads Yiddish dance. She has been on the faculties of Living Traditions' KlezKamp, KlezKanada, and Boxwood, was a premier participant with FleytMuzik at the KlezMore Festival in Vienna, and presents master classes in the art of klezmer performance to classical flutists. She has also performed with "Kapelye", with Adrienne Cooper in performances at the International Jewish Festival in Amsterdam and NYC‘s Jewish Museum and as accompanying artist with numerous cantors in concert as both pianist and flutist. As a clinician interested in sharing klezmer music with young people of all ages and backgrounds she also presents school workshops and directs three student klezmer ensembles in Connecticut and Massachusetts. "The Klezical Tradition" has won many awards for its recording Family Portrait, including Top 10 CD's from both Moment Magazine and the NY Jewish Week. The band was also chosen to be included as a feature in the ABC-TV documentary A Sacred Noise: The New Jewish Music.
+
+After receiving over 10,000 albums from 85 countries, FleytMuzik is was 1 of 8 albums nominated by Just Plain Folks indy awards for 2004 in the klezmer catagory for Best Album and, in 2009, FleytMuzik in Konsert! was again nominated.
+
+Greenbaum's master classes are unique as flutists learn to bridge the gap between folk and classical as well as learning a new genre.Being a pioneer in reviving the art of klezmer flute performance has garnered invitations to be guest artist for many flute organizations in the US, in the UK, and, most recently, in France. In addition, her performances on the simple system flute offer a special look into historic performance practices of both classical and klezmer of the 19th century.
+
+Adrianne's classical training and experience ranks with the finest in the flute scene. She received her Bachelors in Music from the Oberlin College Conservatory and her Masters degree from the Yale School of Music, studying with Robert Willoughby and Thomas Nyfenger respectively. She has performed as soloist and orchestral musician in all of New York's major concert halls and in many major cities of the U.S. She has appeared with such orchestras as New York's Mostly Mozart Festival (as soloist), the Berlin Ballet at the Met (as principal flutist), the Period Orchestra of the Fairfield Academy, and for many years performed with the New York City Ballet Orchestra. Currently she is Solo Flutist with the New Haven Symphony, the Wall Street Chamber Players, and Emeritus Principal of Orchestra New England. She has held faculty positions at Wesleyan and Yale Universities, at Smith College, and is currently Professor of Music (flute and klezmer ensemble) at Mount Holyoke College. She can be heard in recording on the Koch International, CBS Masterworks, Nonesuch, and EMC labels as well as on her independent albums "Sounds of America" and Klezical Tradition's "Family Portrait." "FleytMuzik" and "FleytMuzik In Konsert" are of course the featured albums on this website. Go to the album page to listen!
+
+Adrianne lives in Fairfield, Connecticut.

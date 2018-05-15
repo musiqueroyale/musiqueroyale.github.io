@@ -1,0 +1,74 @@
+---
+permalink: /artists/
+title: Artists
+layout: page
+---
+
+<div  style="max-width: 640px;">
+
+{% for artist in site.artists %} {% for currentartist in site.data.currentartists %}
+<!-- Check currentartists.csv for this year's performers -->
+{% capture name %}{{ artist.path | remove: '_artists/' }}{% endcapture %} {% capture currentname %}{{ currentartist.name | slugify }}.md{% endcapture %} {% if name == currentname %}
+
+<!-- end -->
+<div class="entry">
+
+    <div class="row">
+
+        <div class="span12">
+
+            <img class="centered" src="/assets/artists/{{ artist.name | slugify }}.jpg">
+            
+            {% if site.data.artists[artist.name].instrument %}
+            <h4>
+            {% for instrument in site.data.artists[artist.name].instrument %}
+
+            {{ instrument }}{% unless forloop.last %} / {% endunless %}
+
+            {% endfor %}
+            </h4>
+            {% endif %}
+
+            <h2>{{ artist.name }}</h2>
+
+            <p>{{ artist.content }}</p>
+
+
+        <div class="small">
+
+            <!-- Check to include Social Media Feeds -->
+            {% if artist.twitter or artist.facebook or artist.instagram or artist.website %}
+            <div class="social-media">
+                <b>FOLLOW</b>
+                    {% if artist.twitter %}
+                        <a href="http://twitter.com/{{ artist.twitter }}" target='_blank'>Twitter</a>
+                    {% endif %}
+                    {% if artist.instagram %}
+                        <a href="http://instagram.com/{{ artist.instagram }}" target='_blank'>
+                            Instagram
+                        </a>
+                    {% endif %}
+                    {% if artist.facebook %}
+                        <a href="http://facebook.com/{{ artist.facebook }}" target='_blank'>Facebook</a>
+                    {% endif %}
+
+                    {% if artist.website %}
+                    <a href="{{ artist.website }}" target='_blank'>Website</a>
+                    {% endif %}
+            </div>
+            {% endif %}
+
+            <!-- Include Artist Website -->
+
+
+        </div>
+        </div>
+
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+
+</div>

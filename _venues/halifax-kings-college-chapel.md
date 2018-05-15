@@ -1,0 +1,10 @@
+---
+title: King's College Chapel
+location: Halifax
+layout: venue
+published: false
+---
+
+Religious services have been a part of the life of the University of King's College since it was founded in 1789 as the first college to be granted university status in British North America. King's was modeled on the colleges of Oxford and Cambridge, which were residential, Anglican, and followed the tutorial approach to teaching. After a fire destroyed the original university buildings in Windsor, Nova Scotia, in 1920, the university relocated to Halifax and became associated with Dalhousie University. The Chapel was one of the original buildings to be built on the new five-acre Halifax campus by renowned American-Canadian architect, Andrew Cobb, one of the first students of the École des Beaux Arts in Paris to practice architecture in the Atlantic region. During World War II, King's was used as an officer training facility for the Royal Canadian Navy, and between 1941 and 1945 the Chapel ministered to young naval recruits. You will notice the Chapel's baptismal font is a ship's bell, given to the Chapel in honour and thanks for its war effort.  
+
+Home to a vibrant and multi-faith community of students, staff, faculty, and friends, the Chapel is both a place of quiet reflection and the hub of lively activity, all based upon its core belief in the promotion of community through worship. During term, the daily rhythm of prayer practiced in the Chapel forms the basic structure by which students can further approach the truth and beauty of their search for meaning in academic and personal terms. The chapel hosts lectures and discussions, organizes retreats and day trips, holds special suppers and potlucks, is involved in a range of outreach activities, and supports musical education of its student choristers and the community at large. It welcomes all who come through its doors.
